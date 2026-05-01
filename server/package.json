@@ -1,0 +1,19 @@
+{
+	"name": "bolg-server",
+	"version": "1.0.0",
+	"description": "",
+	"main": "bolg.js",
+	"scripts": {
+		"start": "node bolg.js",
+		"dev": "nodemon bolg.js"
+	},
+	"author": "chase",
+	"license": "MIT",
+	"dependencies": {
+		"bcryptjs": "^3.0.3",
+		"express": "^5.2.1",
+		"mysql2": "^3.22.2",
+		"nodemon": "^3.1.14",
+		"sequelize": "^6.37.8"
+	}
+}
